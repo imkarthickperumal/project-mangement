@@ -12,11 +12,10 @@ function App() {
       <Navbar />
       <Row className="justify-content-md-center">
         <Col lg="6">
-        <AddTask />
-        <TasksList/>
+          <AddTask />
+          <TasksList />
         </Col>
       </Row>
-      
     </Container>
   );
 }
